@@ -1,0 +1,167 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>FCC: Survey Form</title>
+    <link rel="stylesheet" href="survey.css" />
+</head>
+<body class="all">
+    <h1 class="black">Survey Form</h1>
+    <div class="div-block">
+        <p>Let us know how we can improve freeCodeCamp</p>
+        <div class="section">
+            <div class="left">
+                <label>* Name:</label>
+            </div>
+            <div class="right">
+                <input type="text" class="input-field" placeholder="Enter your name" />
+            </div>
+        </div>
+        <div class="section">
+            <div class="left">
+                <label>* Email:</label>
+            </div>
+            <div class="right">
+                <input type="email" class="input-field" placeholder="Enter your Email" />
+            </div>
+        </div>
+        <div class="section">
+            <div class="left">
+                <label>* Age:</label>
+            </div>
+            <div class="right">
+                <input type="number" class="input-field" placeholder="Age" min="1" max="150" />
+            </div>
+        </div>
+        <div class="section">
+            <div class="left">
+                <label>Which option best describes your current role?</label>
+            </div>
+            <div class="right">
+                <select class="select-group">
+                    <optgroup label="Select an option"></optgroup>
+                    <option>Student</option>
+                    <option>Full Time Job</option>
+                    <option>Full Time Learner</option>
+                    <option>Prefer not to say</option>
+                    <option>Others</option>
+                </select>
+            </div>
+        </div>
+        <div class="section">
+            <div class="left">
+                <label>* How likely is that you would recommend freeCodeCamp to a friend?</label>
+            </div>
+            <div class="right">
+                <ul class="choose_list">
+                    <li>
+                        <label>Definitely
+                            <input type="radio" name="any_one" class="choose" />
+                        </label>
+                    </li>
+                    <li>
+                        <label>MayBe
+                            <input type="radio" name="any_one" class="choose" />
+                        </label>
+                    </li>
+                    <li>
+                        <label>Not sure
+                            <input type="radio" name="any_one" class="choose" />
+                        </label>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="section">
+            <div class="left">
+                <label>What do you like most in FCC:</label>
+            </div>
+            <div class="right">
+                <select class="select-group">
+                    <optgroup label="Select an option"></optgroup>
+                    <option>Challenges</option>
+                    <option>Projects</option>
+                    <option>Community</option>
+                    <option>Open Source</option>
+                </select>
+            </div>
+        </div>
+        <div class="section">
+            <div class="left">
+                <label>Things that should be improved in the future
+                        (Check all that apply):
+                </label>
+            </div>
+            <div class="right">
+                <ul class="choose_list">
+                    <li>
+                        <label>Front-end Projects
+                            <input type="checkbox" class="choose" />
+                        </label>
+                    </li>
+                    <li>
+                        <label>Back-end Projects
+                            <input type="checkbox" class="choose" />
+                        </label>
+                    </li>
+                    <li>
+                        <label>Data Visualization
+                            <input type="checkbox"  class="choose" />
+                        </label>
+                    </li>
+                    <li>
+                        <label>Challenges
+                            <input type="checkbox"  class="choose" />
+                        </label>
+                    </li>
+                    <li>
+                        <label>Open Source Communication
+                            <input type="checkbox" class="choose" />
+                        </label>
+                    </li>
+                    <li>
+                        <label>Gitter help rooms
+                            <input type="checkbox" class="choose" />
+                        </label>
+                    </li>
+                    <li>
+                        <label>Videos
+                            <input type="checkbox"  class="choose" />
+                        </label>
+                    </li>
+                    <li>
+                        <label>City Meetups
+                            <input type="checkbox" class="choose" />
+                        </label>
+                    </li>
+                    <li>
+                        <label>Wiki
+                            <input type="checkbox" class="choose" />
+                        </label>
+                    </li>
+                    <li>
+                        <label>Forum
+                            <input type="checkbox" class="choose" />
+                        </label>
+                    </li>
+                    <li>
+                        <label>Additional Cources
+                            <input type="checkbox" class="choose" />
+                        </label>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="section">
+            <div class="left">
+                <label>Any Comments or Suggestions?</label>
+            </div>
+            <div class="right">
+                <textarea placeholder="Enter your comment here..." rows="4"  cols="35"></textarea>
+            </div>
+        </div>
+        <button class="button" disabled>Submit</button>
+    </div>
+</body>
+</html>

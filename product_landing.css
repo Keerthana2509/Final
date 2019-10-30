@@ -1,0 +1,114 @@
+﻿body
+{
+    font-family:  sans-serif;
+    background-color: #eeeeee;
+}
+.header {
+    background-color: #eeeeee;
+    margin-top:-8px;
+    width:100%;
+    height:50px;
+    position:fixed;
+    padding:10px;
+}
+.logo {
+    width: 60%;
+    display:inline-block;
+    float:left;
+}
+.navigation {
+    width: 40%;
+    float: left;
+    display:inline-block;
+}
+.nav_link {
+    padding:5px;
+    display: inline-block;
+    margin-right: 50px;
+    text-decoration:none;
+    color:#000000;
+}
+.form_section {
+    text-align: center;
+    line-height: 2px;
+    padding:10px;
+    margin-bottom:60px;
+}
+.heading {
+    margin-top: 80px;
+}
+.email {
+    width: 200px;
+    height:20px;
+    display:inherit;
+    margin:0 auto;
+    margin-bottom:10px;
+}
+.submit_button {
+    background-color: #f1c40f;
+    border: 1px solid #ffb31a;
+    display:inherit;
+    margin:0 auto;
+    height:30px;
+    width:150px;
+    font-weight: 900;
+}
+.features {
+    width:70%;
+    margin: 0 auto;
+    margin-bottom:60px;
+}
+.icon {
+    font-size:45px;
+    color:#ff8c00;
+    display:inline-block;
+    width:20%;
+    text-align:center;
+}
+.data {
+    font-size:14px;
+    display:inline-block;
+    width:70%;
+}
+.how {
+   text-align:center;
+   margin-bottom:50px;
+}
+.pricing {
+    width:80%;
+    margin: 0 auto;
+    margin-bottom:30px;
+}
+.col {
+    display:inline-block;
+    width: 31%;
+    text-align:center;
+    border:1px solid black;
+    margin-left:10px;
+}
+.title {
+    background-color:#dddddd;
+    padding:10px;
+}
+.col-button {
+    background-color: #f1c40f;
+    border: 1px solid #ffb31a;
+    height:40px;
+    font-weight: 400;
+    border-radius:2px;
+    width:100px;
+    margin-bottom:10px;
+}
+.footer {
+    background-color: #dddddd;
+    text-align: right;
+    width:76%;
+    margin:0 auto;
+    padding:10px 10px 10px 20px;
+}
+.f_nav {
+    display:inline-block;
+    margin-right: 10px;
+    text-decoration:none;
+    color:black;
+}
